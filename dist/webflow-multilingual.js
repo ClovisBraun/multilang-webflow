@@ -1,6 +1,6 @@
 
 // Defaults to English when no other language is supplied 
-var DEAFULT_LANG = "en";
+var DEFAULT_LANG = "de";
 
 var LANG_REG_EXP = /\[\[([a-z]{2})\]\]([^\[]+)/g;
 var isStorageEnabled = ! (typeof localStorage == 'undefined');
